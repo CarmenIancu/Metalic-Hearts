@@ -22,7 +22,7 @@ function init(){
   camera.add( light );
   
   
-    var light = new THREE.DirectionalLight(0x9955ff, 0.5);
+    var light = new THREE.DirectionalLight(0x9955ff, 2);
   light.position.x = 50;
   light.position.y = 50;
   light.position.z = 50;
