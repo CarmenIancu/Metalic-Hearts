@@ -20,12 +20,6 @@ function init(){
   light.position.y = 200;
   light.position.z = 200;
   camera.add( light );
-
-    var light = new THREE.DirectionalLight(0x9955ff, 2);
-  light.position.x = 50;
-  light.position.y = 50;
-  light.position.z = 50;
-  camera.add( light );
   
  scene.background = new THREE.Color( '#606060' );
  
